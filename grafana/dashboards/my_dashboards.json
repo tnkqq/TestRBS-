@@ -24,7 +24,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "af6p7xbndmigwf"
+          "uid": "prometheus"
         },
         "fieldConfig": {
           "defaults": {
@@ -103,7 +103,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "af6p7xbndmigwf"
+          "uid": "prometheus"
         },
         "fieldConfig": {
           "defaults": {
@@ -168,7 +168,7 @@
       {
         "datasource": {
           "type": "prometheus",
-          "uid": "af6p7xbndmigwf"
+          "uid": "prometheus"
         },
         "fieldConfig": {
           "defaults": {
@@ -254,7 +254,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "af6p7xbndmigwf"
+              "uid": "prometheus"
             },
             "editorMode": "builder",
             "expr": "app_request_total{endpoint=\"/city\"}",
@@ -265,7 +265,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "af6p7xbndmigwf"
+              "uid": "prometheus"
             },
             "editorMode": "builder",
             "expr": "app_request_total{endpoint=\"/weather\"}",
@@ -278,7 +278,7 @@
           {
             "datasource": {
               "type": "prometheus",
-              "uid": "af6p7xbndmigwf"
+              "uid": "prometheus"
             },
             "editorMode": "builder",
             "expr": "app_request_total{endpoint=\"/coord\"}",
